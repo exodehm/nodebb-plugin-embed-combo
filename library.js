@@ -115,11 +115,11 @@
 		regexps: [/<a href="(.+?)\.gifv".*>.*?<\/a>/g],
 		icon: 'fa-video-camera'
 	});
-	  embeds.push({
-        id: 'Liveleak',
-        code: '<iframe width="640" height="360" src="http://www.liveleak.com/ll_embed?f=$1" frameborder="0" allowfullscreen></iframe>',
-        regexps: [\<a href="https?:\/\/(liveleak\.com\/view\?.*)|<a href=\"https?:\/\/www\.liveleak\.com\/view\?.*i\=(\w+)<\/a>/g],
-        icon: 'fa-vine'
+	 embeds.push({
+        	id: 'Liveleak',
+        	code: '<iframe width="640" height="360" src="http://www.liveleak.com/ll_embed?f=$1" frameborder="0" allowfullscreen></iframe>',
+        	regexps: [\<a href="https?:\/\/(liveleak\.com\/view\?.*)|<a href=\"https?:\/\/www\.liveleak\.com\/view\?.*i\=(\w+)<\/a>/g],
+        	icon: 'fa-vine'
 	});
 
 	/**
